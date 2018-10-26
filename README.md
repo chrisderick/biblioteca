@@ -1,2 +1,2 @@
-# chris_library
+# biblioteca
 A simple PHP project for my studies.
