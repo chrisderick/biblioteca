@@ -1,11 +1,11 @@
 <?php
 
 	$nome = @$_REQUEST["nome_autor"];
-	$pais = @$_REQUEST["pais_autor"];
+	$origem = @$_REQUEST["origem_autor"];
 
 	switch (@$_REQUEST["acao"]) {
 		case "cadastrar":
-			$sql = "INSERT INTO autor (nome_autor, pais_autor) VALUES ('$nome', '$pais')";
+			$sql = "INSERT INTO autor (nome_autor, origem_autor) VALUES ('$nome', '$origem')";
 			$res = $conn->query($sql);
 
 			if($res==true){
