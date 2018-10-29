@@ -1,4 +1,6 @@
-<p><center><h1>Cadastro de Categorias</h1></center></p>
+<!DOCTYPE html>
+<p></p>
+<div style="text-align: center;"><h1>Cadastro de Categorias</h1></div>
 
 	<!-- Formulários de Cadastro !-->
 <form action="index.php?page=sal-categoria" method="POST">

@@ -1,2 +1,1 @@
-- Terminar a implementação do BD do cadastro de livros;
-- Terminar a listagem dos livros;
+- Front-end;
