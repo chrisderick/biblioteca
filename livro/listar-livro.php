@@ -1,13 +1,12 @@
-<p><center><h1>Lista de Livros</h1></center></p>
+<p><div style="text-align: center;"><h1>Lista de Livros</h1></div></p>
 <?php
 	$sql = "SELECT * FROM livro";
 	$res = $conn->query($sql) or die($conn->error);
-	
+
 	$qtd = $res->num_rows;
 	
-	
 	if($qtd > 0){
-		print "<p>Encontrou <b>$qtd</b> resultado(s)</p>";
+		print "<p><b>$qtd</b> resultado(s) encontrado(s)</p>";
 		print "<table class='table table-bordered table-striped table-hover'>";
 			print "<tr>";
 			print "<th>#</th>";
