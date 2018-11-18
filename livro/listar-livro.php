@@ -26,8 +26,8 @@
 			print "<tr>";
 			print "<td>".$row["id_livro"]."</td>";
 			print "<td>".$row["titulo_livro"]."</td>";
-            print "<td>".$row["nome_autor"]."</td>";
-            print "<td>".$row["nome_categoria"]."</td>";
+         print "<td>".$row["nome_autor"]."</td>";
+         print "<td>".$row["nome_categoria"]."</td>";
 			print "<td>".$row["editora_livro"]."</td>";
 			print "<td>".$row["ano_livro"]."</td>";
 			if($row["adulto_livro"] == 1){
